@@ -1,0 +1,83 @@
+
+/*
+The standard bootstrap with this contains 3 main colours
+
+#e95420
+#ac3911
+#c34113
+
+The settings below change the main elements to a custom colour scheme
+*/
+
+
+/* Main navbar colour*/
+.navbar-default {
+  background-color: #3333ff;
+    border-color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 15px;
+}
+
+/* Hoover colour for navbar buttons*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #303135;
+}
+
+/* Navbar active button colour*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #97989A;
+}
+
+
+/* Navbar dropdown menu button colour*/
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #303135;
+  color: #ffffff;
+}
+
+/*
+.navbar-default .navbar-toggle {
+  border-color: #00A064;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #00A064;
+}
+*/
+
+
+
+
+/* Text col for hyperlinks etc..*/
+a {
+  color: #00A064;
+  text-decoration: none;
+}
+
+/*
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #00A064;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus {
+  background-color: #00A064;
+}
+ */
+
+/* Text col when hoover over tabs*/
+a:hover,
+a:focus {
+  color: #00A064;
+  text-decoration: underline;
+}
+

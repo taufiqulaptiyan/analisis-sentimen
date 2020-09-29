@@ -1,0 +1,26 @@
+----------INSTALL TERLEBIH DAHULU LIBRARY YANG DIGUNAKAN DAN KEMUDIAN DILOAD----------
+library(twitteR)
+library(ROAuth)
+library(sentiment)
+library(ggplot2)
+library(tm)
+library(wordcloud)
+library(plyr)
+library(stringr)
+library(devtools)
+library(Rcurl)
+library(Rstem)
+library(Sentiment)
+
+
+----------INSTALL LIBRARY RSTEM DAN SENTIMENT (SUDAH DIHAPUS DARI CRAN)----------
+install.packages("Rstem")
+atau
+install.packages("Rstem", repos="http://www.omegahat.net/R", type="source")
+
+install_url("http://cran.r-project.org/src/contrib/Archive/sentiment/sentiment_0.2.tar.gz")
+
+#PENTING JIKA SAAT INSTALL LIBRARY RSTEM ERROR MAKA PERLU DOWNLOAD RLTOOLS
+DAM UPDATE R KE VERSI TERBARU 
+RTOOLS : https://cran.r-project.org/bin/windows/Rtools/
+R : https://www.r-project.org/
